@@ -25,11 +25,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      # Active GitHub Pages automatiquement au 1er run (source = Actions),
-      # pas besoin d'aller dans Settings → Pages.
+      # Pages est déjà activé (source = GitHub Actions) ; on ne le recrée pas.
       - uses: actions/configure-pages@v5
         with:
-          enablement: true
+          enablement: false
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
