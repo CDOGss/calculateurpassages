@@ -43,25 +43,6 @@ d'un objectif de temps et d'une trace GPX.
 React + Vite + Tailwind · D3 (profil) · Leaflet + OpenStreetMap (carte). Tout le calcul
 tourne dans le navigateur — **vos fichiers GPX ne quittent jamais votre appareil**.
 
-## Développement
-
-```bash
-npm install
-npm run dev      # http://localhost:5173
-npm run build    # génère dist/
-npm run preview  # prévisualise le build
-```
-
-## Déploiement gratuit sur GitHub Pages
-
-1. Pousser ce dossier dans un dépôt GitHub.
-2. Dans **Settings → Pages**, choisir la source **GitHub Actions**.
-3. Chaque push sur `main` déclenche le workflow [.github/workflows/deploy.yml](.github/workflows/deploy.yml)
-   qui build et publie automatiquement. Le site est dispo sur
-   `https://<utilisateur>.github.io/<dépôt>/`.
-
-La configuration Vite utilise `base: './'` (chemins relatifs) : aucune adaptation nécessaire
-selon le nom du dépôt.
 
 ## Limites & pistes
 
