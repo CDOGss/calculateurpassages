@@ -1,6 +1,6 @@
 # Calculateur de temps de passage — Trail & Ultra
 
-Application **100% navigateur** (aucun serveur, hébergement gratuit à vie sur GitHub Pages)
+Application **100% navigateur** 
 qui calcule les **temps de passage par checkpoint** d'un parcours trail/ultra à partir
 d'un objectif de temps et d'une trace GPX.
 
